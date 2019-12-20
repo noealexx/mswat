@@ -6,8 +6,7 @@
 	<artifactId>mswat</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mswat Maven Webapp</name>
-
+	<name>Maven Static Webapp on Tomcat</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,6 +22,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<finalName>mswat</finalName>
 	</build>
