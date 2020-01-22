@@ -1,37 +1,38 @@
 body {
-    background-color: gray;
+    background-color: #499494;
 }
 
 p {
-    font-family: fantasy;
+    font-family: lucida console;
 }
 
-#special {
-    color: violet;
+#special { /* id per il cancelletto */
+    color: #0000ff;
 }
 
 h1, h2, h3 {
-    color: yellow;
+    color: #ea8c00;
 }
 
-.myClass {
+.myClass {				/* elementi classe myClass */
     font-style: italic;
 }
 
-p.myClass {
-    color: blue;
+p.myClass { /* elementi paragrafo e classe*/
+    color: #400040;
 }
 
 #paragraphId {
-    color: red;
+    color: #8000ff;
 }
 
 #blockId {
-    border: 3px solid #ff8000;
-    background-color: #ffff80;
+    border: 3px solid #8000ff; /* 3 pixel di bordo + linguaggio colore RGB */
+    background-color: #008080;
+   
 }
 
-.boldCls {
+.boldCls { /* classe bold */
     font-weight: bold;
 }
 

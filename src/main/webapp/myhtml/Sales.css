@@ -1,13 +1,19 @@
+@charset "utf8";
 table {
     border: 3px solid black;
     border-collapse: collapse;
-    width: 60%;
+    width: 80%;
 }
-
 td, th {
-    border: 1px solid yellow;
+    border: 1px solid #8080c0;
     padding: 10px;
     text-align: center;
+}
+h1 {
+	text-align: center;
+}
+.oldprice {
+	text-decoration: line-through;
 }
 
 th {
@@ -15,5 +21,5 @@ th {
 }
 
 td {
-    background-color: #c1bac7;
+    background-color: #c0c0c0;
 }
