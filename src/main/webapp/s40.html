@@ -25,8 +25,8 @@
         target.value += 'last: ' + s[s.length - 1] + '\n';
 
         let idx = s.indexOf('Bob');
-        target.value += 'Bob: ' + idx + '\n';
-        target.value += 'Bill: ' + s.indexOf('Bill') + '\n';
+        target.value += 'Bob: ' + idx + '\n'; //ritorna l'indice in cui inizia Bob
+        target.value += 'Bill: ' + s.indexOf('Bill') + '\n'; //ritornerà -1 perchè non c'è nella stringa
 
         let end = s.indexOf(',', idx);
         target.value += 'slice (' + idx + '..' + end + ']: ' + s.slice(idx, end) + '\n';
@@ -36,7 +36,7 @@
         
         target.value += 'Bill instead of Bob: ' + s.replace('Bob', 'Bill') + '\n';
 
-        let array = s.split(',');
+        let array = s.split(','); //l'array viene splittato in una serie di sottostringhe
         target.value += 'First in array: ' + array[0];
     </script>
 </body>

@@ -24,7 +24,7 @@ $(function() {
 	});
 
 	$('#makeItYellow').click(function() {
-		let cur = $('#msg3');
+		let cur = $('#msg3'); /* ho assegnatol'id msg3 (se presente nel dom) alla variabile cur */ 
 
 		cur.removeClass('red');
 		cur.addClass('yellow');
@@ -33,7 +33,7 @@ $(function() {
 	$('#swap3').click(function() {
 		let cur = $('#msg3');
 
-		if (cur.hasClass('red')) {
+		if (cur.hasClass('red')) {     
 			cur.removeClass('red');
 			cur.addClass('yellow');
 		} else if (cur.hasClass('yellow')) {

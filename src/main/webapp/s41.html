@@ -18,10 +18,10 @@
 
         let data = [ 1, 'hello', [ true, 42.24 ] ];
         target.value += data + '\n';
-        console.log(data.length);
+        console.log(data.length); //log è metodo di console 
 
         console.log(data[1], data[2][1]);
-        data[2] = false;
+        //data[2] = false; //cambio valore del dato
 
         for (let i = 0; i < data.length; i++) {
             console.log(data[i]);
@@ -32,12 +32,12 @@
         target.value += 'pop: ' + data.pop() + '\n';
         target.value += 'shift: ' + data.shift() + '\n';
         target.value += 'current status: ' + data + '\n';
-        data.push('push1');
+        data.push('push1'); //qui aggiungo altri valori in sostituzione 
         data.push('push2');
         data.unshift('unshift');
         target.value += 'new status: ' + data + '\n';
 
-        data.splice(1, 2);
+        data.splice(1, 2); //elimina elementi al centro 
         target.value += 'new status: ' + data + '\n';
     </script>
 </body>
